@@ -1,0 +1,34 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+//$background-color:  #dc5945;
+//$background-color:  #ad4535;
+$background-color:  gray;
+
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-countdown-wait {
+
+  background-color: $background-color;
+
+  h2 { font-size: 2em; color: darkgray; }
+
+  h1 { font-size: 3em; color: darkgray; }
+
+  .countdown-time {
+    margin-top: 10px;
+    color: darkgray;
+  }
+
+  .before-more-info {
+    font-size: 15px;
+    position: absolute;
+    bottom: 52px;
+    left: 0;
+    right: 0;
+		color: darkgray;
+  }
+
+	.more-info { color: darkgray; }
+}

@@ -1,0 +1,45 @@
+<h1 class="title" data-bind="title"></h1>
+
+<table>
+<tr>
+    <th data-foreach-th="table_headers">
+    <span class="label" data-bind="th.value"></span></th>
+</tr>
+<tr data-foreach-page="pages">
+    <td>
+    <a>
+        <span class="label" data-bind="page.bot_name"></span>
+    </a>
+    </td>
+    <td>
+    <span class="label" data-bind="page.date_released"></span>
+    </td>
+    
+    <td>
+    <span class="label" data-bind="page.total_records_processed"></span>
+    </td>
+
+    <td>
+    <span class="label" data-bind="page.total_failed_records"></span>
+    </td>
+
+    <td>
+    <span class="label" data-bind="page.avg_processing_time"></span>
+    </td>
+
+    <td>
+    <span class="label" data-bind="page.processing_frequency"></span>
+    </td>
+                    
+    <td>
+    <span class="label" data-bind="page.bot_not_running"></span>
+    </td>
+    <td>
+    <span class="label" data-bind="page.last_updated"></span>
+    </td>                                      
+    
+</tr>
+</table>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>

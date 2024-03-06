@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+//$background-color:  #ffffff;
+$background-color:  #1F4E79;
+
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-textksa {
+
+  background-color: $background-color;
+
+  h1 { 
+    font-size: 3em;
+//    color: #013c42;
+    font-weight : bold;
+  }
+
+  h2 { 
+    font-size: 2em;
+//   color: #013c42;
+  }
+
+/*
+  .ksa-icon-background {
+    pointer-events: none;
+    width: 100%!important;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.1;
+    font-size: 275px;
+    text-align: center;
+    margin-top: 22px;
+}
+*/
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+   }
+
+}

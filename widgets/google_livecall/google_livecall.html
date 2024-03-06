@@ -1,0 +1,12 @@
+<h1 class="title" >Today Live Call</h1>
+<span class="times" data-bind="event_date"></span>
+<h2 class="summary" data-bind="event.summary"></h2>
+<h4 data-bind="next_count"></h4>
+<table class="next">
+  <tr data-foreach-e='next_events'>
+    <td data-bind="e.start_date"></td>
+    <td data-bind="e.summary"></td>
+  </tr>
+</table>
+
+<div class="updated-at" data-bind="updatedAtMessage"></div>

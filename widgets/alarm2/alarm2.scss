@@ -1,0 +1,55 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+//$background-color:  #47bbb3;
+$background-color:  #2E9AFE;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-alarm2 {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+  }
+
+  .value1 {
+    font-weight: 500;
+    font-size: 40px;
+    color: $value-color;
+  }
+
+  .value2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: $value-color;
+  }
+
+
+  .total {
+    font-weight: 100;
+    font-size: 14px;
+    color: $title-color;
+  }
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $value-color;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}

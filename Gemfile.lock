@@ -1,0 +1,87 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
+    concurrent-ruby (1.2.3)
+    csv (3.2.8)
+    daemons (1.4.1)
+    et-orbi (1.2.7)
+      tzinfo
+    eventmachine (1.2.7)
+    execjs (2.9.1)
+    ffi (1.16.3)
+    fugit (1.9.0)
+      et-orbi (~> 1, >= 1.2.7)
+      raabro (~> 1.4)
+    multi_json (1.15.0)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
+    mysql2 (0.5.6)
+    raabro (1.4.0)
+    rack (2.2.8)
+    rack-protection (2.2.4)
+      rack
+    rackup (1.0.0)
+      rack (< 3)
+      webrick
+    ruby2_keywords (0.0.5)
+    rufus-scheduler (3.9.1)
+      fugit (~> 1.1, >= 1.1.6)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sinatra (2.2.4)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.4)
+      tilt (~> 2.0)
+    sinatra-contrib (2.2.4)
+      multi_json
+      mustermann (~> 2.0)
+      rack-protection (= 2.2.4)
+      sinatra (= 2.2.4)
+      tilt (~> 2.0)
+    sinatra_cyclist (0.0.3)
+      sinatra
+    smashing (1.3.6)
+      coffee-script (~> 2.4)
+      execjs (~> 2.7)
+      rack (>= 2.2, < 4.0)
+      rufus-scheduler (~> 3.6)
+      sassc (~> 2.0)
+      sinatra (~> 2.2)
+      sinatra-contrib (~> 2.0)
+      sprockets (~> 4.0)
+      thin (~> 1.7)
+      thor (~> 1.0)
+    sprockets (4.2.1)
+      concurrent-ruby (~> 1.0)
+      rack (>= 2.2.4, < 4)
+    thin (1.8.2)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    thor (1.3.0)
+    tilt (2.3.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    webrick (1.8.1)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  base64
+  csv
+  mysql2
+  rackup (~> 1.0)
+  sinatra
+  sinatra_cyclist
+  smashing
+
+BUNDLED WITH
+   2.5.6

@@ -1,0 +1,38 @@
+<h1 class="title" data-bind="title"></h1>
+
+<table>
+	<tr>
+		<td style="vertical-align:top;">
+			<ol>
+			  <li data-foreach-item="items1">
+			    <span class="label" data-bind="item.label" ></span>
+			  </li>
+			</ol>
+
+		<td style="vertical-align:top;">
+			<ol start="6">
+			  <li data-foreach-item="items2">
+			    <span class="label" data-bind="item.label" ></span>
+			  </li>
+			</ol>
+	</tr>
+</table>
+
+<table>
+	<tr>
+		<td style="vertical-align:top;" >
+			<ul class="list-nostyle">
+			  <li data-foreach-item="items1">
+			    <span class="label" data-bind="item.label" ></span>
+			  </li>
+			</ul>
+		<td style="vertical-align:top;" >
+			<ul class="list-nostyle">
+			  <li data-foreach-item="items2">
+			    <span class="label" data-bind="item.label" ></span>
+				</li>
+			</ul>
+	</tr>
+</table>
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
